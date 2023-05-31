@@ -26,3 +26,10 @@
 h1, h2, h3 {
   @apply font-debussy;
 }
+
+body {
+
+background:
+  repeating-conic-gradient(#fcff00 0% 25%, #0084ff 0% 50%)
+    50%/ 120px 120px;
+}
