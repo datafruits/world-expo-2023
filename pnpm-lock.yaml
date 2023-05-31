@@ -32,7 +32,6 @@ specifiers:
   ember-resolver: ^10.0.0
   ember-source: ~4.12.0
   ember-template-lint: ^5.7.2
-  ember-welcome-page: ^7.0.1
   eslint: ^8.37.0
   eslint-config-prettier: ^8.8.0
   eslint-plugin-ember: ^11.5.0
@@ -48,7 +47,7 @@ specifiers:
   stylelint: ^15.4.0
   stylelint-config-standard: ^32.0.0
   stylelint-prettier: ^3.0.0
-  tailwindcss: ^3.3.2
+  tailwindcss: ^3.0.0
   tracked-built-ins: ^3.1.1
   webpack: ^5.67.0
 
@@ -84,7 +83,6 @@ devDependencies:
   ember-resolver: 10.1.0_cihnpgfwzyk7an27cse37yqyuu
   ember-source: 4.12.0_fkrcecby4s7mmykaftsayrhx7q
   ember-template-lint: 5.7.3
-  ember-welcome-page: 7.0.1
   eslint: 8.41.0
   eslint-config-prettier: 8.8.0_eslint@8.41.0
   eslint-plugin-ember: 11.7.1_eslint@8.41.0
@@ -6446,17 +6444,6 @@ packages:
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 5.7.2
     transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /ember-welcome-page/7.0.1:
-    resolution: {integrity: sha512-3Dj7+ap38O/rgQBNqBsd7RPfH81a6DE1xJbipMt9mjOkvLo3OamZiiekAeax3Ydnm3yKYCtbxHPkCIEn4G6B8A==}
-    engines: {node: 14.* || 16.* || >= 18}
-    dependencies:
-      '@embroider/addon-shim': 1.8.5
-      '@glimmer/component': 1.1.2
-    transitivePeerDependencies:
-      - '@babel/core'
       - supports-color
     dev: true
 
