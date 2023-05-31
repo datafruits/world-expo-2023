@@ -10,6 +10,10 @@ const relevantFilesGlob = '**/*.{html,js,ts,hbs,gjs,gts}';
 module.exports = {
   content: [path.join(appEntry, relevantFilesGlob)],
   theme: {
+    fontFamily: {
+      debussy: ['debussy', 'sans-serif'],
+      helvetica: ['Helvetica', 'Arial', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
