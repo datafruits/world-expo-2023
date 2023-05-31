@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Debussy';
+  src: url('hinted-Debussy.woff2') format('woff2'), url('hinted-Debussy.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Topaz';
+  src: url('TopazPlus_a1200.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-smooth: never !important;
+  -webkit-font-smooth : none !important;
+  -webkit-font-smoothing: none !important;
+  -moz-osx-font-smoothing: none !important;
+  font-smoothing: none !important;
+}
+
+h1, h2, h3 {
+  @apply font-debussy;
+}
