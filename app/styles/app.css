@@ -1,0 +1,20 @@
+#title-and-date-section {
+  padding: 3rem;
+  text-align: center;
+  background-color: rgba(255, 29, 255, 0.521);
+}
+#expo-dj-lineup li {
+  padding: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: rgba(137, 43, 226, 0.308);
+}
+
+#expo-vj-lineup li {
+  padding: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: rgba(43, 86, 226, 0.308);
+}
