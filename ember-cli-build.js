@@ -19,7 +19,7 @@ module.exports = function (defaults) {
         module: {
           rules: [
             {
-              test: /\.(woff|woff2|eot|ttf|otf)$/i,
+              test: /\.(woff|woff2|eot|ttf|otf|png|svg|jpg|jpeg|gif|webp)$/i,
               type: 'asset/resource',
             },
             {

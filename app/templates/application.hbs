@@ -1,30 +1,109 @@
 {{page-title "DATAFRUITS WORLD EXPO 2023"}}
 
-<main class="flex items-center justify-center w-1/2">
-  <section class="">
-    <section>
-      <h1 class="text-3xl">Datafruits World Expo</h1>
-      <h2>August 4th + 5th</h2>
+<main class="flex w-full">
+  <nav>
+    <ul>
+      <li><a href="#schedule">SCHEDULE</a></li>
+      <li><a href="#travel">TRAVEL</a></li>
+    </ul>
+  </nav>
+  <section class="m-12 p-12 bg-zinc-50/50">
+    <section id="title-and-date-section">
+      <h1 class="text-6xl">
+        Datafruits World Expo
+      </h1>
+      <h2 class="text-center py-8 text-4xl">
+        August 4th - 5th 2023
+      </h2>
     </section>
-    <section>
-      15+ Artists/Musicians
-      VJs
-      Datafruits Game Demos
-      Seminars
+    <section
+      id="brief-section"
+      class="bg-sky-300/50 text-center font-bold italic rounded-lg m-8 text-xl"
+    >
+      <span>
+        15+ Artists/Musicians
+      </span>
+      <br />
+      <span>
+        VJs
+      </span>
+      <br />
+      <span>
+        Datafruits Game Demos
+      </span>
+      <br />
+      <span>
+        Seminars
+      </span>
     </section>
-    <section>
-      <h3>WHERE</h3>
-      DADS Chicago
-      2515 S Archer Ave Ste 2, Chicago, IL 60608
-      Chicago,IL
-      <h3>TICKETS</h3>
-      <ul>
-        <li>$20 Two Day Wristbands (Early Presale) (50?)</li>
-        <li>$25 Two Day Wristbands (Not Presale)</li>
-        <li>$15 Each Day</li>
+    <section id="details-section" class="w-full inline-flex items-stretch">
+      <section id="where-section" class="p-8 bg-green-400/50 w-1/2">
+        <h3 class="text-3xl">WHERE</h3>
+        <span>
+          <strong>
+            DADS Chicago
+          </strong>
+        </span>
+        <br />
+        <span>
+          2515 S Archer Ave Ste 2
+        </span>
+        <br />
+        <span>
+          Chicago, IL 60608
+        </span>
+      </section>
+      <section id="tickets section" class="p-8 bg-yellow-400/50 w-1/2">
+        <h3 class="text-3xl">TICKETS</h3>
+        <ul>
+          <li>$20 Two Day Wristbands (Early Presale) (50?)</li>
+          <li>$25 Two Day Wristbands (Not Presale)</li>
+          <li>$15 Each Day</li>
+        </ul>
+        <span>
+          Tickets available at:
+        </span>
+        <br />
+        <a
+          class="text-blue-600 bg-yellow-200"
+          href="http://www.dadschicago.com/tickets/"
+        >http://www.dadschicago.com/tickets/</a>
+        <br />
+      </section>
+    </section>
+    <section id="lineup-section" class="w-full">
+      <ul id="expo-dj-lineup" class="inline-flex flex-wrap">
+        <li>WIFI CELLPHONE KIDZ</li>
+        <li>alptrack</li>
+        <li>Zaxy</li>
+        <li>jonnn</li>
+        <li>DJ Fuzzy Guy</li>
+        <li>venoSci</li>
+        <li>Ivy Hollivana</li>
+        <li>ovenrake </li>
+        <li>FMSHAGGI</li>
+        <li>getdizzy</li>
+        <li>Sarah Allen Reed & The Jazz Program</li>
+        <li>firedrill</li>
+        <li>Saskrotch</li>
+        <li>gossamarie b2b lebers</li>
+        <li>lilienfeld</li>
+        <li>DJ Cyber Grandpa</li>
       </ul>
-      Tickets available at:
-      http://www.dadschicago.com/
+      <ul id="expo-vj-lineup" class="inline-flex flex-wrap">
+        <li>Hazelboy</li>
+        <li>Oracle</li>
+        <li>Jace Inman</li>
+        <li>pointless insanity</li>
+      </ul>
+    </section>
+    <section id="sponsors">
+      <SponsorsList />
+    </section>
+    <section id="schedule">
+    </section>
+    <section id="travel">
     </section>
   </section>
+  <img src="{{ this.flyer }}" alt="" />
 </main>
