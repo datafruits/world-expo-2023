@@ -1,43 +1,32 @@
 {{page-title "DATAFRUITS WORLD EXPO 2023"}}
 
-<main class="flex w-full">
+<main>
   <nav>
-    <ul>
+    <ul class="flex flex-wrap">
       <li><a href="#schedule">SCHEDULE</a></li>
+      <li><a href="#info">INFO</a></li>
       <li><a href="#travel">TRAVEL</a></li>
     </ul>
   </nav>
-  <section class="m-12 p-12 bg-zinc-50/50">
-    <section id="title-and-date-section">
-      <h1 class="text-6xl">
+  <section id="poster-full">
+    <a href={{this.expo}} target="_blank" class="no-flex md:flex md:justify-center-center">
+      <img src="{{this.expo}}" alt="">
+    </a>
+  </section>
+  <section id="flyer-bg" class="w-3/5">
+    <article id="info" class="p-2">
+      <h1 class="text-3xl md:text-6xl">
         Datafruits World Expo
       </h1>
-      <h2 class="text-center py-8 text-4xl">
-        August 4th - 5th 2023
+      <h2 class="text-xl md:text-2xl text-right">
+        2023
       </h2>
-    </section>
-    <section
-      id="brief-section"
-      class="bg-sky-300/50 text-center font-bold italic rounded-lg m-8 text-xl"
-    >
-      <span>
-        15+ Artists/Musicians
-      </span>
-      <br />
-      <span>
-        VJs
-      </span>
-      <br />
-      <span>
-        Datafruits Game Demos
-      </span>
-      <br />
-      <span>
-        Seminars
-      </span>
-    </section>
-    <section id="details-section" class="w-full inline-flex items-stretch">
-      <section id="where-section" class="p-8 bg-green-400/50 w-1/2">
+      <h2 class="text-2xl md:text-5xl">
+        August 4th - 5th
+      </h2>
+    </article>
+    <section id="details-section" class="w-full flex-wrap md:inline-flex items-stretch">
+      <section id="where-section" class="bg-green-400/50 w-full md:w-1/2">
         <h3 class="text-3xl">WHERE</h3>
         <span>
           <strong>
@@ -53,7 +42,7 @@
           Chicago, IL 60608
         </span>
       </section>
-      <section id="tickets section" class="p-8 bg-yellow-400/50 w-1/2">
+      <section id="tickets section" class="bg-yellow-400/50 w-full md:w-1/2">
         <h3 class="text-3xl">TICKETS</h3>
         <ul>
           <li>$20 Two Day Wristbands (Early Presale) (50?)</li>
@@ -105,5 +94,4 @@
     <section id="travel">
     </section>
   </section>
-  <img src="{{ this.flyer }}" alt="" />
 </main>

@@ -30,7 +30,47 @@ h3 {
   @apply font-debussy;
 }
 
-body {
-  background: repeating-conic-gradient(#fcff00 0% 25%, #0084ff 0% 50%) 50%/ 120px
-    120px;
+main {
+  background-image: url("/assets/fruit_shower_xpo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#lg-poster, #poster {
+  background-image: url("/assets/worldexpo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 21rem;
+}
+
+#lg-poster {
+  height: 34rem;
+}
+#flyer-bg {
+  background: repeating-conic-gradient(#e8e000 0% 25%, #007eb3 0% 50%) 50%/ 120px
+  120px;
+}
+
+#info {
+  background-color: rgb(255 29 255 / 52.1%);
+}
+
+#expo-dj-lineup li {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#expo-vj-lineup li {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+nav {
+  background-color: #0084ff;
+}
+nav li {
+  color: #e8e000;
+  padding: 0 1rem;
 }
