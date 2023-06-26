@@ -23,8 +23,8 @@
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
     "test:ember": "ember test",
-    "tailwind:build": "npx tailwindcss -c ./config/tailwind/tailwind.config.js -i ./config/tailwind/tailwind-input.css -o ./public/assets/tailwind.css",
-    "tailwind:watch": "npx tailwindcss -c ./config/tailwind/tailwind.config.js -i ./config/tailwind/tailwind-input.css -o ./public/assets/tailwind.css --watch"
+    "tailwind:build": "npx tailwindcss -c ./tailwind.config.js -i ./tailwind-input.css -o ./public/assets/tailwind.css",
+    "tailwind:watch": "npx tailwindcss -c ./tailwind.config.js -i ./tailwind-input.css -o ./public/assets/tailwind.css --watch"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.3",
