@@ -48,12 +48,46 @@ main {
   height: 34rem;
 }
 #flyer-bg {
-  background: repeating-conic-gradient(#e8e000 0% 25%, #007eb3 0% 50%) 50%/ 120px
+  background: repeating-conic-gradient(#e8e000 0% 25%, #00a7b3 0% 50%) 50%/ 120px
   120px;
 }
 
-#info {
-  background-color: rgb(255 29 255 / 52.1%);
+#info-article {
+  background-color: rgba(216, 255, 29, 0.52);
+}
+#info-article h1, h2 {
+  color: rgb(18, 1, 65);
+  text-align: center;
+}
+#where-section {
+  background-color: rgba(29, 229, 255, 0.521);
+}
+#where-section h1, h2, h3 {
+  color: rgb(18, 1, 65);
+  text-align: center;
+}
+#where-section span {
+  color: rgb(18, 1, 65);
+  font-size: x-large;
+}
+
+#tickets-section {
+  font-size: x-large;
+  color: rgb(18, 1, 65);
+  background-color: rgba(223, 208, 208, 0.788);
+}
+#lineup-article {
+  background-color: #0084ff;
+  color: rgb(223, 217, 247);
+}
+#lineup-article h3, h4 {
+  font-weight: 700;
+  text-align: center;
+  margin: 0 3rem;
+  color: rgb(238, 250, 215); 
+}
+#lineup-article li {
+  margin: 0 1rem;;
 }
 
 #expo-dj-lineup li {

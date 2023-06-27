@@ -13,21 +13,21 @@
       <img src="{{this.expo}}" alt="">
     </a>
   </section>
-  <section id="flyer-bg" class="w-3/5">
-    <article id="info" class="p-2">
-      <h1 class="text-3xl md:text-6xl">
+  <section id="flyer-bg" class="w-3/5 pt-4">
+    <article id="info-article" class="p-2 m-4">
+      <h1 class="text-4xl md:text-8xl">
         Datafruits World Expo
       </h1>
-      <h2 class="text-xl md:text-2xl text-right">
-        2023
-      </h2>
       <h2 class="text-2xl md:text-5xl">
         August 4th - 5th
       </h2>
+      <h2 class="text-2xl md:text-5xl">
+        2023
+      </h2>
     </article>
-    <section id="details-section" class="w-full flex-wrap md:inline-flex items-stretch">
-      <section id="where-section" class="bg-green-400/50 w-full md:w-1/2">
-        <h3 class="text-3xl">WHERE</h3>
+    <article id="details-article" class="p-2 m-4">
+      <section id="where-section" class="w-full md:w-1/2">
+        <h3 class="text-4xl">WHERE</h3>
         <span>
           <strong>
             DADS Chicago
@@ -42,11 +42,11 @@
           Chicago, IL 60608
         </span>
       </section>
-      <section id="tickets section" class="bg-yellow-400/50 w-full md:w-1/2">
+      <section id="tickets-section" class="">
         <h3 class="text-3xl">TICKETS</h3>
         <ul>
-          <li>$20 Two Day Wristbands (Early Presale) (50?)</li>
-          <li>$25 Two Day Wristbands (Not Presale)</li>
+          <li>$20 Two-Day Expo Wristbands (Early Presale)</li>
+          <li>$25 Two-Day Expo Wristbands (Not Presale)</li>
           <li>$15 Each Day</li>
         </ul>
         <span>
@@ -59,8 +59,11 @@
         >http://www.dadschicago.com/tickets/</a>
         <br />
       </section>
-    </section>
-    <section id="lineup-section" class="w-full">
+    </article>
+    <article id="lineup-article" class="w-full">
+      <h3 class="text-3xl">LINEUP</h3>
+      <hr>
+      <h3 class="text-3xl">DJs/Artists/Performers</h3>
       <ul id="expo-dj-lineup" class="inline-flex flex-wrap">
         <li>WIFI CELLPHONE KIDZ</li>
         <li>alptrack</li>
@@ -79,13 +82,15 @@
         <li>lilienfeld</li>
         <li>DJ Cyber Grandpa</li>
       </ul>
+      <hr>
+      <h4>VJs/Artists/VeeJays</h4>
       <ul id="expo-vj-lineup" class="inline-flex flex-wrap">
         <li>Hazelboy</li>
         <li>Oracle</li>
         <li>Jace Inman</li>
         <li>pointless insanity</li>
       </ul>
-    </section>
+    </article>
     <section id="sponsors">
       <SponsorsList />
     </section>
