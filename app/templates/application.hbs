@@ -8,95 +8,97 @@
       <li><a href="#travel">TRAVEL</a></li>
     </ul>
   </nav>
-  <section id="poster-full">
-    <a href={{this.expo}} target="_blank" class="no-flex md:flex md:justify-center-center">
-      <img src="{{this.expo}}" alt="">
-    </a>
-  </section>
-  <section id="flyer-bg" class="w-3/5 pt-4">
-    <article id="info-article" class="p-2 m-4">
-      <h1 class="text-4xl md:text-8xl">
-        Datafruits World Expo
-      </h1>
-      <h2 class="text-2xl md:text-5xl">
-        August 4th - 5th
-      </h2>
-      <h2 class="text-2xl md:text-5xl">
-        2023
-      </h2>
-    </article>
-    <article id="details-article" class="p-2 m-4">
-      <section id="where-section" class="w-full md:w-1/2">
-        <h3 class="text-4xl">WHERE</h3>
-        <span>
-          <strong>
-            DADS Chicago
-          </strong>
-        </span>
-        <br />
-        <span>
-          2515 S Archer Ave Ste 2
-        </span>
-        <br />
-        <span>
-          Chicago, IL 60608
-        </span>
-      </section>
-      <section id="tickets-section" class="">
-        <h3 class="text-3xl">TICKETS</h3>
-        <ul>
-          <li>$20 Two-Day Expo Wristbands (Early Presale)</li>
-          <li>$25 Two-Day Expo Wristbands (Not Presale)</li>
-          <li>$15 Each Day</li>
+  <div class="md:flex md:flex-row">
+    <section id="poster-full" class="">
+      <a href={{this.expo}} target="_blank">
+        <img src="{{this.expo}}" alt="">
+      </a>
+    </section>
+    <section id="flyer-bg" class="max-w-sm">
+      <article id="info-article" class="p-2 m-4">
+        <h1 class="text-4xl md:text-7xl">
+          Datafruits World Expo
+        </h1>
+        <h2 class="text-2xl md:text-5xl">
+          August 4th - 5th
+        </h2>
+        <h2 class="text-2xl md:text-5xl">
+          2023
+        </h2>
+      </article>
+      <article id="details-article" class="p-2 m-4">
+        <section id="where-section" class="w-full md:w-1/2">
+          <h3 class="text-4xl">WHERE</h3>
+          <span>
+            <strong>
+              DADS Chicago
+            </strong>
+          </span>
+          <br />
+          <span>
+            2515 S Archer Ave Ste 2
+          </span>
+          <br />
+          <span>
+            Chicago, IL 60608
+          </span>
+        </section>
+        <section id="tickets-section" class="">
+          <h3 class="text-3xl">TICKETS</h3>
+          <ul>
+            <li>$20 Two-Day Expo Wristbands (Early Presale)</li>
+            <li>$25 Two-Day Expo Wristbands (Not Presale)</li>
+            <li>$15 Each Day</li>
+          </ul>
+          <span>
+            Tickets available at:
+          </span>
+          <br />
+          <a
+            class="text-blue-600 bg-yellow-200"
+            href="http://www.dadschicago.com/tickets/"
+          >http://www.dadschicago.com/tickets/</a>
+          <br />
+        </section>
+      </article>
+      <article id="lineup-article" class="w-full">
+        <h3 class="text-3xl py-2">LINEUP</h3>
+        <hr>
+        <h3 class="text-3xl py-2">DJs/Artists/Performers</h3>
+        <ul id="expo-dj-lineup" class="inline-flex flex-wrap">
+          <li>WIFI CELLPHONE KIDZ</li>
+          <li>alptrack</li>
+          <li>Zaxy</li>
+          <li>jonnn</li>
+          <li>DJ Fuzzy Guy</li>
+          <li>venoSci</li>
+          <li>Ivy Hollivana</li>
+          <li>ovenrake </li>
+          <li>FMSHAGGI</li>
+          <li>getdizzy</li>
+          <li>Sarah Allen Reed & The Jazz Program</li>
+          <li>firedrill</li>
+          <li>Saskrotch</li>
+          <li>gossamarie b2b lebers</li>
+          <li>lilienfeld</li>
+          <li>DJ Cyber Grandpa</li>
         </ul>
-        <span>
-          Tickets available at:
-        </span>
-        <br />
-        <a
-          class="text-blue-600 bg-yellow-200"
-          href="http://www.dadschicago.com/tickets/"
-        >http://www.dadschicago.com/tickets/</a>
-        <br />
+        <hr>
+        <h3 class="text-3xl py-2">VJs/Artists/VeeJays</h3>
+        <ul id="expo-vj-lineup" class="inline-flex flex-wrap">
+          <li>Hazelboy</li>
+          <li>Oracle</li>
+          <li>Jace Inman</li>
+          <li>pointless insanity</li>
+        </ul>
+      </article>
+      <section id="sponsors">
+        <SponsorsList />
       </section>
-    </article>
-    <article id="lineup-article" class="w-full">
-      <h3 class="text-3xl">LINEUP</h3>
-      <hr>
-      <h3 class="text-3xl">DJs/Artists/Performers</h3>
-      <ul id="expo-dj-lineup" class="inline-flex flex-wrap">
-        <li>WIFI CELLPHONE KIDZ</li>
-        <li>alptrack</li>
-        <li>Zaxy</li>
-        <li>jonnn</li>
-        <li>DJ Fuzzy Guy</li>
-        <li>venoSci</li>
-        <li>Ivy Hollivana</li>
-        <li>ovenrake </li>
-        <li>FMSHAGGI</li>
-        <li>getdizzy</li>
-        <li>Sarah Allen Reed & The Jazz Program</li>
-        <li>firedrill</li>
-        <li>Saskrotch</li>
-        <li>gossamarie b2b lebers</li>
-        <li>lilienfeld</li>
-        <li>DJ Cyber Grandpa</li>
-      </ul>
-      <hr>
-      <h4>VJs/Artists/VeeJays</h4>
-      <ul id="expo-vj-lineup" class="inline-flex flex-wrap">
-        <li>Hazelboy</li>
-        <li>Oracle</li>
-        <li>Jace Inman</li>
-        <li>pointless insanity</li>
-      </ul>
-    </article>
-    <section id="sponsors">
-      <SponsorsList />
+      <section id="schedule">
+      </section>
+      <section id="travel">
+      </section>
     </section>
-    <section id="schedule">
-    </section>
-    <section id="travel">
-    </section>
-  </section>
+  </div>
 </main>

@@ -41,12 +41,8 @@ main {
   background-image: url("/assets/worldexpo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 21rem;
 }
 
-#lg-poster {
-  height: 34rem;
-}
 #flyer-bg {
   background: repeating-conic-gradient(#e8e000 0% 25%, #00a7b3 0% 50%) 50%/ 120px
   120px;
