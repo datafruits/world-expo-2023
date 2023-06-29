@@ -80,22 +80,21 @@ main {
   margin: 0 1rem;;
 }
 
-#expo-dj-lineup li {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
-  font-size: xx-large;
-}
-#expo-dj-lineup li:hover,
-#expo-vj-lineup li:hover {
-  color: #e8e000;
-}
-
+#expo-dj-lineup li,
 #expo-vj-lineup li {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: xx-large;
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
+#expo-dj-lineup li:hover,
+#expo-vj-lineup li:hover {
+  color: #e8e000;
+  border: thin solid #e8e000;
+}
+
 nav {
   background-color: #0084ff;
 }
