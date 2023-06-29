@@ -37,12 +37,6 @@ main {
   background-position: center center;
 }
 
-#lg-poster, #poster {
-  background-image: url("/assets/worldexpo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #flyer-bg {
   background: repeating-conic-gradient(#e8e000 0% 25%, #00a7b3 0% 50%) 50%/ 120px
   120px;
@@ -91,11 +85,16 @@ main {
   font-weight: bolder;
   font-size: xx-large;
 }
+#expo-dj-lineup li:hover,
+#expo-vj-lineup li:hover {
+  color: #e8e000;
+}
 
 #expo-vj-lineup li {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: xx-large;
+
 }
 nav {
   background-color: #0084ff;
@@ -108,3 +107,4 @@ nav li {
 #sponsors-list img {
   height: 150px;
 }
+
