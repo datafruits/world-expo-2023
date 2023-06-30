@@ -43,7 +43,7 @@ main {
 
 #flyer-bg {
   background: repeating-conic-gradient(#e8e000 0% 25%, #00a7b3 0% 50%) 50%/ 120px
-  120px;
+    120px;
 }
 
 #info-article {
@@ -88,7 +88,7 @@ h4 {
   font-weight: 700;
   text-align: center;
   margin: 0 3rem;
-  color: rgb(238, 250, 215);
+  color: rgb(238 250 215);
 }
 
 #lineup-article li {

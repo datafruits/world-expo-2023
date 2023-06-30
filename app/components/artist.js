@@ -7,7 +7,7 @@ export default class ArtistComponent extends Component {
   showing = false;
 
   @action
-  toggle(){
+  toggle() {
     this.showing = !this.showing;
   }
 }
