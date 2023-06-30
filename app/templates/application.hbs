@@ -1,18 +1,15 @@
 {{page-title "DATAFRUITS WORLD EXPO 2023"}}
 
 <main class="w-screen h-screen">
-  <nav>
-    <ul class="flex flex-wrap">
+  <nav class="w-full">
+    <ul class="flex flex-wrap justify-center">
       <li><a href="#schedule">SCHEDULE</a></li>
       <li><a href="#info">INFO</a></li>
       <li><a href="#travel">TRAVEL</a></li>
     </ul>
   </nav>
-  <div class="md:flex md:flex-row">
-    <section id="poster-full" class="w-full">
-      <img src="{{this.expo}}" alt="" class="object-scale-down w-max-full w-full h-full">
-    </section>
-    <section id="flyer-bg" class="max-w-sm">
+  <div class="flex flex-row justify-center items-center w-full">
+    <section id="flyer-bg" class="md:w-3/4">
       <article id="info-article" class="p-2 m-4">
         <h1 class="text-4xl md:text-7xl">
           Datafruits World Expo
@@ -24,6 +21,9 @@
           2023
         </h2>
       </article>
+      <section id="poster-full" class="flex justify-center">
+        <img src="{{this.expo}}" alt="" class="object-scale-down">
+      </section>
       <article id="details-article" class="p-2 m-4">
         <section id="where-section" class="w-full md:w-1/2">
           <h3 class="text-4xl">WHERE</h3>
