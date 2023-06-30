@@ -37,6 +37,16 @@ main {
   background-position: center center;
 }
 
+
+nav {
+  background-color: #0084ff;
+}
+
+nav li {
+  color: #e8e000;
+  padding: 0 1rem;
+}
+
 #poster-full {
   margin: 0 2.5rem;
 }
@@ -109,15 +119,6 @@ h4 {
 #expo-vj-lineup li:hover {
   color: #e8e000;
   border: thin solid #e8e000;
-}
-
-nav {
-  background-color: #0084ff;
-}
-
-nav li {
-  color: #e8e000;
-  padding: 0 1rem;
 }
 
 #sponsors-list img {
