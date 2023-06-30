@@ -37,10 +37,8 @@ main {
   background-position: center center;
 }
 
-#lg-poster, #poster {
-  background-image: url("/assets/worldexpo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+#poster-full {
+  margin: 0 2.5rem;
 }
 
 #flyer-bg {
