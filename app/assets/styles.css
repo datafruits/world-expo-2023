@@ -43,41 +43,52 @@ main {
 }
 
 #info-article {
-  background-color: rgba(216, 255, 29, 0.52);
+  background-color: rgb(216 255 29 / 52%);
 }
-#info-article h1, h2 {
-  color: rgb(18, 1, 65);
+
+#info-article h1,
+h2 {
+  color: rgb(18 1 65);
   text-align: center;
 }
+
 #where-section {
-  background-color: rgba(29, 229, 255, 0.521);
+  background-color: rgb(29 229 255 / 52.1%);
 }
-#where-section h1, h2, h3 {
-  color: rgb(18, 1, 65);
+
+#where-section h1,
+h2,
+h3 {
+  color: rgb(18 1 65);
   text-align: center;
 }
+
 #where-section span {
-  color: rgb(18, 1, 65);
+  color: rgb(18 1 65);
   font-size: x-large;
 }
 
 #tickets-section {
   font-size: x-large;
-  color: rgb(18, 1, 65);
-  background-color: rgba(223, 208, 208, 0.788);
+  color: rgb(18 1 65);
+  background-color: rgb(223 208 208 / 78.8%);
 }
+
 #lineup-article {
   background-color: #0084ff;
-  color: rgb(223, 217, 247);
+  color: rgb(223 217 247);
 }
-#lineup-article h3, h4 {
+
+#lineup-article h3,
+h4 {
   font-weight: 700;
   text-align: center;
   margin: 0 3rem;
-  color: rgb(238, 250, 215); 
+  color: rgb(238 250 215);
 }
+
 #lineup-article li {
-  margin: 0 1rem;;
+  margin: 0 1rem;
 }
 
 #expo-dj-lineup li,
@@ -89,6 +100,7 @@ main {
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
+
 #expo-dj-lineup li:hover,
 #expo-vj-lineup li:hover {
   color: #e8e000;
@@ -98,6 +110,7 @@ main {
 nav {
   background-color: #0084ff;
 }
+
 nav li {
   color: #e8e000;
   padding: 0 1rem;
@@ -106,4 +119,3 @@ nav li {
 #sponsors-list img {
   height: 150px;
 }
-
