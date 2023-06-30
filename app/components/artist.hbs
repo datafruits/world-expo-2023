@@ -1,8 +1,8 @@
 <div {{on "click" this.toggle}}>
   <span>{{@name}}</span>
   {{#if this.showing}}
-    <div>
-      <a href={{@link}} target="_blank" rel="noopener noreferrer">{{@title}}</a>
+    <div class="text-base">
+      <a href={{@link}} target="_blank" rel="noopener noreferrer" class="underline">{{@title}}</a>
     </div>
   {{/if}}
 </div>
