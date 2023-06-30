@@ -32,15 +32,13 @@ h3 {
 
 main {
   background-image: url("/assets/fruit_shower_xpo.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
 }
 
-#lg-poster, #poster {
-  background-image: url("/assets/worldexpo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+#poster-full {
+  margin: 0 2.5rem;
 }
 
 #flyer-bg {
@@ -80,7 +78,7 @@ main {
   font-weight: 700;
   text-align: center;
   margin: 0 3rem;
-  color: rgb(238, 250, 215); 
+  color: rgb(238, 250, 215);
 }
 #lineup-article li {
   margin: 0 1rem;;
