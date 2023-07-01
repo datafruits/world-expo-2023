@@ -4,6 +4,7 @@ import dadsURL from '../assets/dads.jpg';
 import datafruitsURL from '../assets/df_circle_logo_squiggle_invert.png';
 import shrimpshakeURL from '../assets/shrimp_shake_logo.jpg';
 import snailzoneURL from '../assets/snailzone.jpg';
+import shrimpshakecoURL from '../assets/shrimpshakecologo_dithered.png';
 
 export default class SponsorsListComponent extends Component {
   get blueLightTapes() {
@@ -20,5 +21,8 @@ export default class SponsorsListComponent extends Component {
   }
   get snailzone() {
     return snailzoneURL;
+  }
+  get shrimpshakeco() {
+    return shrimpshakecoURL;
   }
 }
