@@ -37,7 +37,6 @@ main {
   background-position: center center;
 }
 
-
 nav {
   background-color: #0084ff;
 }
@@ -90,6 +89,21 @@ h3 {
 
 #sponsors {
   background-color: #8400ffb5;
+}
+
+#travel-tips {
+  background-color: #00d0ffb5;
+}
+
+#travel-tips h4 {
+  text-align: start;
+  font-size: xx-large;
+  color: rgb(44, 40, 22);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#modes-of-transportation a {
+  @apply text-blue-900 underline text-xl hover:text-yellow-600 hover:bg-blue-900;
 }
 
 #lineup-article {
