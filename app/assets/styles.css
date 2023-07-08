@@ -103,7 +103,11 @@ h3 {
 }
 
 #modes-of-transportation a {
-  @apply text-blue-900 underline text-xl hover:text-yellow-600 hover:bg-blue-900;
+  @apply text-blue-900 underline text-2xl hover:text-yellow-600 hover:bg-blue-900;
+}
+#modes-of-transportation p {
+  font-size: x-large;
+  padding: 1rem;
 }
 
 #lineup-article {
