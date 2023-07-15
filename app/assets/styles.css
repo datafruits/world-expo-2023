@@ -146,3 +146,27 @@ h4 {
 #sponsors-list img {
   height: 150px;
 }
+.plays-on-friday, .plays-on-saturday, .plays-both-days {
+  font-size: medium;
+  font-family: cursive;
+  border: medium  double rgb(248, 248, 79);
+  color: rgb(235, 250, 215);
+  text-align: center;
+  vertical-align: top;
+  height: min-content;
+  width: min-content;
+  margin-left: 2rem;
+  padding: 0 .5rem;
+}
+
+.plays-on-friday {
+  background-color: rgb(182, 0, 232);
+}
+
+.plays-on-saturday {
+  background-color: #c500e8;
+}
+
+.plays-both-days {
+  background-color: #0c00e8;
+}
