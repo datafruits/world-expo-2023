@@ -1,26 +1,30 @@
-<div class="flex inline-flex">
-<button type="button" {{on "click" this.toggle}}>
-  <span>{{@name}}</span>
-</button>
-  {{#if (eq @day "1")}}
-    <div class="plays-on-friday">
-      <span>Friday</span>
-    </div>
-  {{/if}}
-  {{#if (eq @day "2")}}
-    <div class="plays-on-saturday">
-      <span>Saturday</span>
-    </div>
-  {{/if}}
-  {{#if (eq @day "3")}}
-    <div class="plays-on-friday">
-      <span>Friday</span>
-    </div>
-    <div class="plays-both-days"><span>&</span></div>
-    <div class="plays-on-saturday">
-      <span>Saturday</span>
-    </div>
-  {{/if}}
+<div>
+  <div class="flex justify-center">
+    {{#if (eq @day "1")}}
+      <div class="plays-on-friday">
+        <span>Friday</span>
+      </div>
+    {{/if}}
+    {{#if (eq @day "2")}}
+      <div class="plays-on-saturday">
+        <span>Saturday</span>
+      </div>
+    {{/if}}
+    {{#if (eq @day "3")}}
+      <div class="flex flex-inline">
+        <div class="plays-on-friday">
+          <span>Friday</span>
+        </div>
+        <div class="plays-both-days"><span>&</span></div>
+        <div class="plays-on-saturday">
+          <span>Saturday</span>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+  <button type="button" {{on "click" this.toggle}}>
+    <span>{{@name}}</span>
+  </button>
 </div>
 {{#if this.showing}}
   <div class="text-base">
