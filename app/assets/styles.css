@@ -110,12 +110,12 @@ h3 {
   padding: 1rem;
 }
 
-#lineup-article {
+#schedule {
   background-color: #0084ff;
   color: rgb(223 217 247);
 }
 
-#lineup-article h3,
+#schedule h3,
 h4 {
   font-weight: 700;
   text-align: center;
@@ -123,7 +123,7 @@ h4 {
   color: rgb(238 250 215);
 }
 
-#lineup-article li {
+#schedule li {
   margin: 0 1rem;
 }
 
